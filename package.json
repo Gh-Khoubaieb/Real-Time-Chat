@@ -1,0 +1,28 @@
+{
+  "name": "real-time-chat",
+  "version": "1.0.0",
+  "description": "Realtime chat whith rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gh-Khoubaieb/Real-Time-Chat.git"
+  },
+  "author": "Ghaouari Khoubaieb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gh-Khoubaieb/Real-Time-Chat/issues"
+  },
+  "homepage": "https://github.com/Gh-Khoubaieb/Real-Time-Chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
